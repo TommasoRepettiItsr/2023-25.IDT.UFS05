@@ -55,7 +55,7 @@ loggedUser = None
 
 @appWeb.route("/")
 def main():
-    return "pagina iniziale da visualizzare"
+    return "Hello"
 
 @appWeb.route("/prova")
 def prova():
